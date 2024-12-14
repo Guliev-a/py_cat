@@ -158,7 +158,7 @@ def pycat():
             files_list.append(prop)
         else:
             if collecting_options:
-                printer(f"Warning: '{prop}' is not a valid option.")
+                printer(prop)
                 return
             else:
                 printer(f"Warning: '{prop}' is not a valid file.")
